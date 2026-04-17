@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepa Hire Service</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1604147706283-d7119b5b3d60');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* NAVBAR */
+nav {
+    background: #111;
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* SECTION */
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #7a0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    background: #7a0000;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #a00000;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #7a0000;
+    color: white;
+}
+
+/* FORM */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* CONTACT BOX */
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Deepa Hire Service</h1>
+    <p>പരമ്പരാഗത ദീപങ്ങളും പാത്രങ്ങളും – എല്ലാ ആഘോഷങ്ങൾക്കും</p>
+
+    <a href="tel:9446260099" class="btn">📞 Call Now</a>
+    <a href="https://wa.me/919446260099" class="btn">💬 WhatsApp</a>
+</header>
+
+<nav>
+    <a href="#items">സാധനങ്ങൾ</a>
+    <a href="#booking">ബുക്കിംഗ്</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">ബന്ധപ്പെടുക</a>
+</nav>
+
+<section id="items">
+    <h2>സാധനങ്ങളും നിരക്കുകളും</h2>
+
+    <table>
+        <tr>
+            <th>സാധനം</th>
+            <th>നിരക്ക് (₹)</th>
+        </tr>
+
+        <tr><td>വാർപ്പ്</td><td>800 / 600 / 400 / 300</td></tr>
+        <tr><td>ചെമ്പ്</td><td>950 / 500</td></tr>
+        <tr><td>ചട്ടുകം</td><td>70 / 50 / 30</td></tr>
+        <tr><td>കണ്ണാപ്പ</td><td>50 / 35</td></tr>
+        <tr><td>കുത്തുപോണി</td><td>60 / 40</td></tr>
+        <tr><td>അണ്ടാവ്</td><td>100 / 80</td></tr>
+        <tr><td>ടി കെട്ടിൽ</td><td>150 / 120 / 100 / 50</td></tr>
+        <tr><td>സോസ്‌പാൻ</td><td>ലിറ്റർ അനുസരിച്ച്</td></tr>
+        <tr><td>ചൈനചട്ടി</td><td>100 / 80</td></tr>
+        <tr><td>കഞ്ഞി പ്ലേറ്റ്</td><td>3</td></tr>
+        <tr><td>കസേര</td><td>6</td></tr>
+        <tr><td>സ്റ്റീൽ ടേബിൾ</td><td>50 / 40</td></tr>
+        <tr><td>അലുമിനിയം അണ്ടാവ്</td><td>150 / 100 / 80</td></tr>
+        <tr><td>ഉരുളി</td><td>120 / 100 / 80</td></tr>
+        <tr><td>സ്റ്റീൽ പ്ലേറ്റ്</td><td>5</td></tr>
+        <tr><td>ബേസിൻ</td><td>30</td></tr>
+        <tr><td>നിലകത്ത്</td><td>40</td></tr>
+        <tr><td>കൊരുവ</td><td>15</td></tr>
+        <tr><td>തവി</td><td>10</td></tr>
+        <tr><td>സ്പൂൺ</td><td>1</td></tr>
+        <tr><td>റൈസ് കട്ടർ</td><td>8</td></tr>
+        <tr><td>ടി സെറ്റ്</td><td>100</td></tr>
+        <tr><td>ലിഡ് കെയറിയർ</td><td>200 / 150 / 100</td></tr>
+        <tr><td>ടിഫിൻ കെയറിയർ</td><td>250 / 200</td></tr>
+        <tr><td>അടുക്കു സെറ്റ്</td><td>30</td></tr>
+        <tr><td>ഗ്യാസ് സ്റ്റൗവ് (4 ബേർണർ)</td><td>400</td></tr>
+        <tr><td>ഗ്യാസ് സ്റ്റൗവ് (3 ബേർണർ)</td><td>250</td></tr>
+        <tr><td>ഗ്യാസ് സ്റ്റൗവ് (സിംഗിൾ)</td><td>180</td></tr>
+        <tr><td>വിരക് അടുപ്പ്</td><td>100 / 80</td></tr>
+        <tr><td>തൊട്ടി</td><td>40 / 30 / 20</td></tr>
+    </table>
+
+    <p style="text-align:center;"><b>മറ്റ് സാധനങ്ങൾക്കായി ദയവായി ബന്ധപ്പെടുക</b></p>
+</section>
+
+<section id="booking">
+    <h2>ബുക്കിംഗ്</h2>
+
+    <form onsubmit="sendWhatsApp(); return false;">
+        <input type="text" id="name" placeholder="പേര്" required>
+        <input type="text" id="phone" placeholder="ഫോൺ നമ്പർ" required>
+        <input type="date" id="date" required>
+        <textarea id="itemsReq" placeholder="ആവശ്യമായ സാധനങ്ങൾ"></textarea>
+        <button class="btn" type="submit">ബുക്ക് ചെയ്യുക</button>
+    </form>
+</section>
+
+<section id="faq">
+    <h2>FAQ</h2>
+    <p><b>ഡെലിവറി ഉണ്ടോ?</b> ഉണ്ട് (സ്ഥലമനുസരിച്ച്)</p>
+    <p><b>അഡ്വാൻസ് വേണമോ?</b> സാധനത്തിന്റെ വില അനുസരിച്ച്</p>
+</section>
+
+<section id="contact">
+    <h2>ബന്ധപ്പെടുക</h2>
+
+    <div class="contact-box">
+        <p>📞 9446260099</p>
+        <p>📞 6282825859</p>
+        <p>📞 9497268648</p>
+
+        <p>📍 DEEPA HIRE SERVICE</p>
+
+        <iframe 
+            src="https://www.google.com/maps?q=DEEPA+HIRE+SERVICE&output=embed"
+            width="100%" 
+            height="300" 
+            style="border:0;">
+        </iframe>
+
+        <br><br>
+
+        <a href="https://share.google/L2yzLe5P6DFntotnX" class="btn" target="_blank">
+            📍 Google Map-ൽ തുറക്കുക
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Deepa Hire Service</p>
+</footer>
+
+<script>
+function sendWhatsApp() {
+    let name = document.getElementById("name").value;
+    let phone = document.getElementById("phone").value;
+    let date = document.getElementById("date").value;
+    let items = document.getElementById("itemsReq").value;
+
+    let message = `ബുക്കിംഗ്:%0Aപേര്: ${name}%0Aഫോൺ: ${phone}%0Aതീയതി: ${date}%0Aസാധനങ്ങൾ: ${items}`;
+
+    window.open(`https://wa.me/919446260099?text=${message}`, '_blank');
+}
+</script>
+
+</body>
+</html>
